@@ -3,14 +3,13 @@ import * as S from './styles'
 const Main: React.FC = () => {
   return (
     <S.Wrapper>
-      <S.Title>Boileplate!</S.Title>
+      <S.Title>CODE SNIPPET</S.Title>
       <S.Logo
-        src="/img/shortcut-icon.png"
-        alt="Imagem de um atomo na cor azul marinho dentro de um círculo preto"
+        src="/img/instagram-principal.png"
+        alt="Imagem de um quadrado de bordas arrendadas"
       />
       <S.Description>
-        Boilerplate construído com Typescript, Next.js, Styled Components, Jest,
-        React Testing Library.
+        Componentes extraídos de posts do instagram com code snippet.
       </S.Description>
     </S.Wrapper>
   )
